@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.bega.servicebase.screen.register.RegisterView xmlns:android="http://schemas.android.com/apk/res/android"
+                                                      android:layout_width="match_parent"
+                                                      android:layout_height="match_parent">
+
+  <LinearLayout
+    android:id="@+id/registration_view_form"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:layout_alignParentTop="true"
+    android:orientation="vertical">
+
+    <TextView
+      style="@style/Base.TextAppearance.AppCompat.Small"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" android:textColor="@color/white"
+      android:padding="15dp"
+        android:layout_marginLeft="@dimen/md_neutral_button_margin"
+        android:layout_marginRight="@dimen/md_neutral_button_margin"
+      android:text="@string/register.register_instruction_text"/>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:padding="@dimen/default_edit_padding"
+        android:layout_height="@dimen/nested_scroll_view_height">
+      <LinearLayout
+          android:id="@+id/registration_view_form_internal"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="20dp"
+          android:layout_alignParentTop="true"
+          android:orientation="vertical">
+    <EditText
+        android:id="@+id/register_view_company_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/default_edit_padding"
+        android:layout_marginLeft="@dimen/md_neutral_button_margin"
+        android:layout_marginRight="@dimen/md_neutral_button_margin"
+        android:inputType="textPersonName|textCapWords"
+        android:hint="@string/register.hint_company"/>
+
+    <EditText
+      android:id="@+id/register_view_name_field"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="@dimen/default_edit_padding"
+        android:layout_marginLeft="@dimen/md_neutral_button_margin"
+        android:layout_marginRight="@dimen/md_neutral_button_margin"
+      android:inputType="textPersonName|textCapWords"
+      android:hint="@string/register.hint_name"/>
+
+
+          <EditText
+              android:id="@+id/register_view_guild_field"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="@dimen/default_edit_padding"
+              android:layout_marginLeft="@dimen/md_neutral_button_margin"
+              android:layout_marginRight="@dimen/md_neutral_button_margin"
+              android:inputType="textPersonName|textCapWords"
+              android:hint="@string/register.hint_guild"
+             />
+
+          <EditText
+      android:id="@+id/register_view_email_field"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="@dimen/default_edit_padding"
+        android:layout_marginLeft="@dimen/md_neutral_button_margin"
+        android:layout_marginRight="@dimen/md_neutral_button_margin"
+      android:inputType="textEmailAddress"
+      android:hint="@string/register.hint_email_address"/>
+
+
+
+    <EditText
+      android:id="@+id/register_view_password_field"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="@dimen/default_edit_padding"
+        android:layout_marginLeft="@dimen/md_neutral_button_margin"
+        android:layout_marginRight="@dimen/md_neutral_button_margin"
+      android:inputType="textPassword"
+      android:hint="@string/register.hint_password"
+      android:imeOptions="actionDone"/>
+
+    <EditText
+        android:id="@+id/register_view_password_confirm_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/default_edit_padding"
+        android:layout_marginLeft="@dimen/md_neutral_button_margin"
+        android:layout_marginRight="@dimen/md_neutral_button_margin"
+        android:inputType="textPassword"
+        android:hint="@string/register.hint_confirmpassword"
+        android:imeOptions="actionDone"/>
+      </LinearLayout>
+  </android.support.v4.widget.NestedScrollView>
+    <Button
+        android:id="@+id/register_view_btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/md_neutral_button_margin"
+        android:layout_marginRight="@dimen/md_neutral_button_margin"
+        android:layout_marginTop="@dimen/md_neutral_button_margin"
+        android:text="@string/register.button_register_text"/>
+  </LinearLayout>
+
+
+
+</io.bega.servicebase.screen.register.RegisterView>

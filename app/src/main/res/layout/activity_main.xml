@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:fitsSystemWindows="true"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent">
+
+	<android.support.v7.widget.Toolbar
+			android:id="@+id/app_toolbar"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:minHeight="?attr/actionBarSize"
+		    android:background="?attr/colorPrimary">
+
+	</android.support.v7.widget.Toolbar>
+			<!-- app:theme="@style/AppTheme.ActionBarStyle"
+			app:popupTheme="@style/AppTheme.ActionBarStyle"/-->
+
+
+
+	<!-- The main content view -->
+	<io.bega.servicebase.screen.main.MainView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/container"
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		/>
+
+</RelativeLayout>

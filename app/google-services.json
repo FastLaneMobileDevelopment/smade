@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_id": "servicebase-a8c2",
+    "project_number": "179684365097",
+    "name": "servicebase"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179684365097:android:d3fa4b8a2e5427ff",
+        "client_id": "android:io.bega.servicebase",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "io.bega.servicebase",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ImageView
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="85dp"
+        android:layout_gravity="center"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:id="@+id/imageView1" />
+
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/buttons"
+        >
+
+    <Button android:text="@string/cancel" android:id="@+id/photo_intent_btnPhotoCancel"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="0.5" />
+      <Button android:text="@string/ok" android:id="@+id/photo_intent_btnPhotoOk"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="0.5" />
+</LinearLayout>
+
+<Spinner
+android:layout_alignBottom="@id/imageView1"
+android:id="@+id/photo_intent_spinner_state"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+
+    >
+</Spinner>
+</RelativeLayout>

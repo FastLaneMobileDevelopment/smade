@@ -1,0 +1,162 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable name="orderTask"  type="io.bega.servicebase.model.appointment.WorkDataOrderTask"/>
+    </data>
+<FrameLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".screen.appointment.fragments.AppointmentDataFragment">
+
+
+
+<android.support.design.widget.CoordinatorLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/material_grey_850"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:orientation="horizontal">
+                <TextView
+                    android:layout_margin="@dimen/default_edit_padding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fragment_appointment_data_report"
+                    android:text="@string/appointment.info.report"/>
+                <!--TextView
+                    android:layout_margin="@dimen/default_edit_padding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fragment_appointment_data_report_data"
+                    android:text="@{orderTask.}"/-->
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_margin="@dimen/default_edit_padding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:id="@+id/fragment_appointment_data_report_date_enter"
+                android:text="@string/appointment.info.dateenter"/>
+            <View android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:visibility="invisible"
+                android:id="@+id/fragment_appointment_data_anchor_visit_top"
+                android:background="@color/window_background"/>
+
+            <TextView
+                android:layout_margin="@dimen/default_edit_padding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fragment_appointment_data_report_company"
+                android:text="@string/appointment.info.report"/>
+
+
+            <View android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/fragment_appointment_data_anchor_visit"
+                android:background="@color/window_background"/>
+
+            <TextView
+                android:layout_margin="@dimen/default_edit_padding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fragment_appointment_data_cia"
+                android:text="@string/appointment.info.reportcompany"/>
+
+            <TextView
+                android:layout_margin="@dimen/default_edit_padding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fragment_appointment_data_company"
+                android:text="@string/appointment.info.company"/>
+
+            <TextView
+                android:layout_margin="@dimen/default_edit_padding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fragment_appointment_data_contract"
+                android:text="@string/appointment.info.contract"/>
+
+            <TextView
+                android:layout_margin="@dimen/default_edit_padding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fragment_appointment_data_assurance"
+                android:text="@string/appointment.info.assurance"/>
+
+            <View android:layout_width="match_parent"
+                android:id="@+id/fragment_appointment_data_anchor_location"
+                android:layout_height="1dp"
+                android:background="@color/window_background"/>
+
+            <TextView
+                android:layout_margin="@dimen/default_edit_padding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fragment_appointment_data_location"
+                android:text="@string/appointment.info.location"/>
+
+            <TextView
+                android:layout_margin="@dimen/default_edit_padding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fragment_appointment_data_telephone"
+                android:text="@string/appointment.info.telephone"/>
+
+            <View android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/window_background"/>
+
+            <TextView
+                android:layout_margin="@dimen/default_edit_padding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fragment_appointment_data_request"
+                android:text="@string/appointment.info.request"
+                />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fragment_appointment_data_fab_enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:src="@drawable/ic_input_white_24dp"
+        app:layout_anchor="@id/fragment_appointment_data_anchor_visit"
+        app:layout_anchorGravity="bottom|right|end"/>
+
+
+    <!--Button
+        android:layout_margin="@dimen/default_edit_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entrada a Servicio"
+        android:background="@color/accent_dark"
+        android:layout_alignParentBottom="true"
+        /-->
+
+</android.support.design.widget.CoordinatorLayout>
+</FrameLayout>
+</layout>

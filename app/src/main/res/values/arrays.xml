@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="states">
+        <item>Iniciales</item>
+        <item>Documentos</item>
+        <item>Finales</item>
+    </string-array>
+
+    <string-array name="task_states">
+        <item>Concretados</item>
+        <item>Pendiente de informar</item>
+        <item>En Revisión</item>
+        <item>Rechazado. Falta de información</item>
+        <item>Rechazado. Fotografías</item>
+        <item>Cobrado</item>
+        <item>-Descuento</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ 
+     <RelativeLayout
+         xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/front"
+            android:tag="front"
+           >
+
+ 
+        <ImageView
+                android:clickable="true"
+                android:scaleType="fitXY"
+                android:layout_height="250dp"
+                android:layout_width="250dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:adjustViewBounds="true"
+                android:id="@+id/custom_row_detail_imageview"
+                />
+
+
+
+ 
+    </RelativeLayout>
+ 

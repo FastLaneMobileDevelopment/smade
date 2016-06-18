@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.bega.servicebase.screen.calendar.CalendarView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <com.alamkanak.weekview.WeekView
+      android:id="@+id/view_calendar_weekView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+
+      app:eventTextColor="@android:color/white"
+      app:textSize="12sp"
+      app:hourHeight="60dp"
+      app:headerColumnPadding="8dp"
+      app:headerColumnTextColor="#ffefefef"
+
+      app:headerRowPadding="12dp"
+      app:columnGap="8dp"
+      app:noOfVisibleDays="3"
+      app:headerRowBackgroundColor="#1848adff"
+
+      app:showDistinctPastFutureColor="true"
+      app:todayBackgroundColor="#8A0829"
+      app:futureBackgroundColor="#1848adff"
+      app:pastBackgroundColor="#1848adff"
+      app:headerColumnBackground="#1848adff"/>
+
+</io.bega.servicebase.screen.calendar.CalendarView>

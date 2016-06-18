@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.bega.servicebase.screen.login.LoginView xmlns:android="http://schemas.android.com/apk/res/android"
+								  android:layout_width="match_parent"
+								  android:layout_height="match_parent"
+
+
+    >
+
+
+
+
+    <LinearLayout
+        android:id="@+id/view_login_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+
+
+        <View android:layout_width="match_parent"
+            android:layout_height="1dp"
+          />
+
+        <EditText
+            android:id="@+id/view_login_email_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:inputType="textEmailAddress"
+            android:hint="@string/register.hint_email_address"/>
+
+        <EditText
+            android:id="@+id/view_login_password_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:inputType="textPassword"
+            android:hint="@string/register.hint_password"
+            android:imeOptions="actionDone"/>
+        <!--View android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/window_background"/-->
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="@dimen/md_listitem_control_margin"
+    android:weightSum="2">
+
+        <Button
+            android:id="@+id/view_login_btn_login"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="@string/login.login"/>
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/view_login_btn_signup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/login.signup"/>
+</LinearLayout>
+
+        <Button
+            style="@style/AppTheme.Button.Flat"
+            android:id="@+id/view_login_btn_forgot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login.forgot"
+            android:textSize="18sp"
+            android:layout_marginLeft="28dp"
+            android:layout_margin="16dp" />
+        <!--com.facebook.login.widget.LoginButton
+            android:id="@+id/view_login_fcb_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="4dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp" /-->
+    </LinearLayout>
+
+
+
+
+
+</io.bega.servicebase.screen.login.LoginView>

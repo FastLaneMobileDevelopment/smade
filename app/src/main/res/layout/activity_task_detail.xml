@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/task_detail_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.begasoftware.workermanager.photorecollector.TaskDetailActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <ExpandableListView
+        android:id="@+id/activity_task_detail_expandable_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ExpandableListView>
+
+
+
+</FrameLayout>

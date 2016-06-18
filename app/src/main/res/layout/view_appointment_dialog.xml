@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <!-- <TextView
+        android:id="@+id/view_appointment_dialog_custom_text_view_title"
+        android:text="This is a simple demonstration on how to add custom views to the MaterialStyledDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />-->
+
+
+
+    <TextView
+        android:id="@+id/view_appointment_dialog_custom_text_view_exp"
+        android:text="This is a simple demonstration on how to add custom views to the MaterialStyledDialog"
+        android:layout_width="wrap_content"
+        android:textColor="@color/md_black_1000"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/view_appointment_dialog_custom_text_view_exp_assurance"
+        android:text="This is a simple demonstration on how to add custom views to the MaterialStyledDialog"
+        android:textColor="@color/md_black_1000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/view_appointment_dialog_custom_text_view_telephone"
+        android:text="This is a simple demonstration on how to add custom views to the MaterialStyledDialog"
+        android:textColor="@color/md_black_1000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/view_appointment_dialog_custom_text_view_town"
+        android:text="This is a simple demonstration on how to add custom views to the MaterialStyledDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/view_appointment_dialog_custom_text_view_exp_request"
+        android:textColor="@color/md_black_1000"
+        android:text="This is a simple demonstration on how to add custom views to the MaterialStyledDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

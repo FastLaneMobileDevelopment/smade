@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/view_appointment_fragment_material_workforce"
+        android:hint="@string/appointment.workforcetab.workforce"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/view_appointment_fragment_material_workforce_material"
+        android:hint="@string/appointment.workforcetab.material"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/view_appointment_fragment_material_workforce_material_company"
+        android:hint="@string/appointment.workforcetab.materialcompany"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/view_appointment_fragment_material_workforce_material_cash"
+        android:hint="@string/appointment.workforcetab.cash"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/view_appointment_fragment_material_workforce_material_cash_company"
+        android:hint="@string/appointment.workforcetab.cashincompany"/>
+    
+
+
+
+</LinearLayout>
